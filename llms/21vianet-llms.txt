@@ -1,0 +1,18 @@
+# 21Vianet (VNET Group, Inc.)
+
+> 21Vianet is the largest carrier-neutral internet and data center services provider in China, operating 50+ data centers across 20+ cities. It provides hosting, managed hosting, interconnectivity, cloud, and hybrid IT infrastructure to enterprise customers, and is the exclusive operator of Microsoft Azure, Microsoft 365, Dynamics 365, and Power Platform in mainland China through its Blue Cloud subsidiary. Nasdaq: VNET.
+
+Note: 21Vianet does not publish a public first-party developer API program or developer portal. The links below are corporate and service surfaces, not API documentation.
+
+## Company
+- [21Vianet (Chinese site)](https://www.21vianet.com/): Corporate site for 世纪互联 / 21Vianet operating company.
+- [VNET Group (English site)](https://www.vnet.com/en/): Group site describing data center, wholesale, and retail IDC services.
+- [Investor Relations](https://ir.vnet.com/): Nasdaq: VNET filings, press releases, and financials.
+- [21Vianet on LinkedIn](https://cn.linkedin.com/company/21vianet-group-limited): Company profile and updates.
+
+## Cloud services
+- [21Vianet Blue Cloud (English)](https://en.21vbluecloud.com/): Operator of Microsoft Azure, Microsoft 365, Dynamics 365, and Power Platform in China.
+- [Network product self-service](https://21t.21vianet.com/): Self-service portal for 21Vianet network products.
+
+## Reference
+- [21Vianet on Wikipedia](https://en.wikipedia.org/wiki/21Vianet): Background on the company and its operations.

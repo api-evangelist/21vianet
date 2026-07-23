@@ -1,8 +1,28 @@
 aid: 21vianet
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/21vianet.png
 name: 21Vianet
-description: '21Vianet is a company surfaced as a portfolio company of trinity-ventures and added to the
-  API Evangelist network as a stub for enrichment. Sector: infrastructure. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  21Vianet (VNET Group, Inc.) is the largest carrier-neutral internet and data
+  center services provider in China, operating more than 50 data centers across
+  over 20 cities with tens of thousands of cabinets and multi-terabit network
+  port capacity. The company delivers hosting, managed hosting, interconnectivity,
+  cloud, and hybrid IT infrastructure services to enterprise customers, and is the
+  exclusive operator of Microsoft Azure, Microsoft 365, Dynamics 365, and Power
+  Platform in mainland China through its Blue Cloud subsidiary. 21Vianet trades on
+  Nasdaq under the ticker VNET. This profile was added to the API Evangelist network
+  as a portfolio lead; 21Vianet does not publish a public first-party developer API
+  program, so most API artifacts are legitimately not applicable.
 url: https://raw.githubusercontent.com/api-evangelist/21vianet/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -16,9 +36,35 @@ modified: '2026-07-17'
 tags:
 - Company
 - Infrastructure
+- Data Center
+- Cloud
+- Hosting
+- Colocation
+- China
+- Managed Services
 apis: []
+common:
+- type: DomainSecurity
+  url: security/21vianet-domain-security.yml
+- type: LLMsTxt
+  url: llms/21vianet-llms.txt
+- type: WellKnown
+  url: well-known/21vianet-well-known.yml
+- type: Website
+  url: https://www.21vianet.com/
+- type: Website
+  url: https://www.vnet.com/en/
+- type: InvestorRelations
+  url: https://ir.vnet.com/
+- type: LinkedIn
+  url: https://cn.linkedin.com/company/21vianet-group-limited
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
