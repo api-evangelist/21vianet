@@ -47,7 +47,7 @@ modified: '2026-07-17'
 tags:
 - Company
 - Infrastructure
-- Data-Center
+- Data Center
 - Cloud
 - Hosting
 - Colocation
@@ -62,6 +62,7 @@ tags_raw:
 - Colocation
 - China
 - Managed Services
+- Data-Center
 apis: []
 common:
 - type: DomainSecurity
