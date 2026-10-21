@@ -29,6 +29,41 @@ edges:
     detected: '2026-10-20'
   detected_by: sweep-network-edge.py
   first_seen: '2026-10-20'
+- partner_name: Uptime Institute (Tier Certification)
+  partner: null
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://uptimeinstitute.com/uptime-institute-awards/list/client/21vianet-group-inc/897
+  category: data center facility tier certification
+  contract_reference:
+    register: Uptime Institute Tier Certification / awards list (uptimeinstitute.com/uptime-institute-awards/list)
+    standard: Uptime Institute Tier Standard (Topology / Operational Sustainability)
+    spec_file: null
+    role: tier-certified-operator
+    registered_name: 21Vianet Group, Inc
+    register_country: CN
+    register_id: https://uptimeinstitute.com/uptime-institute-awards/list/client/21vianet-group-inc/897
+    matched_domain: 21vianet.com
+    matched_by: domain
+    certified_products:
+    - product: M&O Stamp of Approval
+      product_type: M&O Stamp of Approval
+      award_code: MO
+      lapsed: false
+    signal_note: certified_products = one entry per Uptime award TYPE held (design documents, constructed facility,
+      operational sustainability, M&O, Efficient IT), highest tier for that type in partner_tier; facility names
+      and counts are context, never counted; the list shows current awards only (a Provisional constructed-facility
+      award is flagged)
+    facilities_listed: 1
+    detected_by: sweep-data-center-tier-certification.py
+    detected: '2026-10-21'
+    identity: wikidata Q25230554 '21Vianet' P856 http://www.ch.21vianet.com
+    identity_source: wikidata P856 (labelled provenance step; Kin 2026-10-15 decision 1)
+  detected_by: sweep-data-center-tier-certification.py
+  first_seen: '2026-10-21'
 generated: '2026-10-20'
 method: searched
 source:
@@ -41,3 +76,7 @@ checked:
 - https://www.peeringdb.com/api/fac
 - https://www.peeringdb.com/api/ix
 - https://www.peeringdb.com/api/net
+- https://uptimeinstitute.com/uptime-institute-awards/list
+- https://www.climateneutraldatacentre.net/signatories/
+- https://www.opencompute.org/membership/membership-directory
+- https://www.thegreengrid.org/en/about-us/members
